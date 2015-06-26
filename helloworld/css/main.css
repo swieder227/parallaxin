@@ -1,0 +1,33 @@
+section {
+    position: relative;
+    height: 100%;
+    border-top: 1px solid red;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-size: cover; /*1024px 768px;*/
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.section1 .bg { background-image: url(http://lorempixel.com/1024/768/city/1);}
+.section2 .bg { background-image: url(http://lorempixel.com/1024/768/city/2);}
+.section3 .bg { background-image: url(http://lorempixel.com/1024/768/city/3);}
+.section4 .bg { background-image: url(http://lorempixel.com/1024/768/city/4);}
+.section5 .bg { background-image: url(http://lorempixel.com/1024/768/city/5);}
+
+h1 {
+    position: relative;
+    z-index: 100;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
